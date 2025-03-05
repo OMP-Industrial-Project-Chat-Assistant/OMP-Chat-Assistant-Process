@@ -1,0 +1,2 @@
+- Documents meant for in-team use will always have an English version
+- Documents meant for communication with the customer will always have a Russian version
