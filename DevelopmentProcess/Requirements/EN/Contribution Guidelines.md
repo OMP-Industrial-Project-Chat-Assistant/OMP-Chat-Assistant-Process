@@ -129,23 +129,26 @@ Release branches must follow this naming structure:
 
 ## Example Workflow <a name="example-workflow"></a>
 
-1. **Create a Branch**  
+1. **Start tracking time**
+   - Before any action, start tracking the time you spend on the issue using Clockify.
+   - Do not forget to stop tracking whenever you stop working
+2. **Create a Branch**  
    ```bash
    git checkout -b feature/chat-45/add-message-reactions
    ```
-2. **Work on Changes**  
+3. **Work on Changes**  
    Commit and push:  
    ```bash
    git add .
    git commit -m "Add emoji reactions to messages"
    git push origin feature/chat-45/add-message-reactions
    ```
-3. **Create a PR**  
+4. **Create a PR**  
    - Target: `release/[latest-version]`  
    - Description: "Fixes #45: User can now use feature 1 and feature 2."  
-4. **Review and Merge**  
+5. **Review and Merge**  
    - Address feedback, then merge into `release/[latest-version]`.  
-5. **Cleanup**  
+6. **Cleanup**  
    Delete the branch locally and remotely.
 
 ---
