@@ -105,6 +105,9 @@ Release branches must follow this naming structure:
 ## Pull Request Template <a name="pull-request-template"></a>
 
 ```markdown
+### Data
+Predicted work hours: <put prediction based on planning poker>
+Actual work hours: <add amount of hours spent on issue after completion>
 ### Description
 <!-- Explain the purpose of this PR and link to the issue (e.g., Fix #45). -->
 
