@@ -24,9 +24,6 @@ All developers are strongly recommended to use **GitHub Desktop**.
 All issues must include **predicted work hours** and **actual time spent** (tracked via Clockify). Use this template when creating issues:
 
 ````markdown
-### **Title**  
-Brief, specific description (e.g., "Fix Chat Message Duplication Bug").  
-
 ### **Description**  
 - **What**: Explain the problem or feature.  
 - **Why**: Business/user impact (e.g., "Users receive duplicate messages, causing confusion").  
