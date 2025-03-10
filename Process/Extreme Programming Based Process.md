@@ -13,7 +13,7 @@ Activities will follow a 2-week cycle pattern, depending on whether an interview
 
 Saturday and Sunday are considered rest days for everyone
 # Task Distribution
-This activity only starts after product requirements (if new are available) have been confirmed by the customer. [How To Approve New Requirements](<../Requirements/RU/Как Подтверждать Новые Требования.md>)
+This activity only starts after product requirements (if new are available) have been confirmed by the customer. [How To Approve New Requirements](<Как Подтверждать Новые Требования.md>)
 This activity is when the assigned manager distributes the tasks between team members.
 - An issue is opened on github with a member assigned.
 - The member is notified via telegram about the new task.
@@ -29,15 +29,15 @@ Sprint is a multi-day activity that starts after Task Distribution. During a spr
 Wrap-up is an activity meant for the team to figure out their status at the end of the sprint. It is either done via a telegram chat, or on a meeting.
 - Every team member is requested to provide usable artifacts that were produced within this week
 - Every team member raises their concerns in case such are present.
-- Manager and another russian-speaking team member formulate the next [Pre-Interview Document](<../DocumentTemplates/RU/Pre-Interview Document.md>) from the information gathered.
+- Manager and another russian-speaking team member formulate the next [Pre-Interview Document](<Pre-Interview Document.md>) from the information gathered.
 In total this activity should take up to 1.5 hours.
 # Interview
 Depending on customer availability, an interview is called. During the interview, the following is done:
 - All demos are demonstrated by Interviewer A
 	- Customer comments are recorded by Interviewer B.
-- Questions from [Pre-Interview Document](<../DocumentTemplates/RU/Pre-Interview Document.md>) are asked being asked by Interviewer A.
+- Questions from [Pre-Interview Document](<Pre-Interview Document.md>) are asked being asked by Interviewer A.
 	- Every answer is recorded by Interviewer B.
 - Further clarifications are asked by Interviewer A and Interviewer B
 - Once all questions by both Interviewers and the customers are exceeded, the meeting is concluded
 - Manager starts to prepare for task distribution.
-After the interview, the manager formulates all changes to the requirements and sends them to customer for approval following the [Requirements Policy](<../Requirements/EN/Requirements Policy.md>)
+After the interview, the manager formulates all changes to the requirements and sends them to customer for approval following the [Requirements Policy](<Requirements Policy.md>)

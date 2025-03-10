@@ -1,4 +1,4 @@
-Русская версия: [Изначальные Требования](<../RU/Изначальные Требования.md>) 
+Русская версия: [Изначальные Требования](<Изначальные Требования.md>) 
 # Requirements
 After the interview on February 21, 2025, the team came up with the following product requirements:
 - The product must work on the following API:
