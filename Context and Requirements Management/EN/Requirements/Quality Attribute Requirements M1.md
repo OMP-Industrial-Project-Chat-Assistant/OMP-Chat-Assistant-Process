@@ -105,7 +105,7 @@ Note: endpoint specifications are tentative. May change in the future
 Here’s the document with formatting inconsistencies resolved while preserving all content:
 
 ---
-
+<!-- REMOVED due to recitation instruction 2
 # Functional Suitability
 
 Per ISO 25010 - Functional Suitability is the degree to which a product fulfills stated and implied functions under specified conditions.
@@ -158,6 +158,7 @@ Degree to which the functions facilitate the accomplishment of specified tasks a
 **Note**: The testing group will be provided by the customer. Later, the metrics may change and cover a bigger set of users.
 
 ---
+-->
 
 # Performance Efficiency
 
@@ -544,8 +545,9 @@ Degree of effectiveness and efficiency with which test criteria can be establish
 
 # Prioritization of Quality Requirements
 
-We can outline three main quality requirements that we wish to focus on.
+We can outline four main quality requirements that we wish to focus on in the following priority (highest to lowest):
 
-1. Functional Suitability - as of now the project is in the stage of “proof of concept”, hence we need to prove that the product can produce value.
-2. Performance - the goal of the project is to make using the documentation faster, hence the product should produce answers fast enough to be a better choice than making a Yandex-indexed search
-3. Maintainability - the product will later on be handed off to the customer, who will want to modify it and deploy it themselves, and it also needs to be easy to maintain throughout half a year of development. Hence, it is important to keep the product as maintainable as possible.
+1. Performance - the goal of the project is to make using the documentation faster, hence the product should produce answers fast enough to be a better choice than making a Yandex-indexed search
+2. Maintainability - the product will later on be handed off to the customer, who will want to modify it and deploy it themselves, and it also needs to be easy to maintain throughout half a year of development. Hence, it is important to keep the product as maintainable as possible.
+3. Portability - the product should be easy to install and it should be easy to replace its parts and products it uses.
+4. Reliability - the product should be reliable enough to not stop working at random.
