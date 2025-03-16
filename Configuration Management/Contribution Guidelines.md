@@ -66,17 +66,18 @@ All issues must include **predicted work hours** and **actual time spent** (trac
 Non-release branches must follow this naming structure:  
 `<type>/chat-<issue-number>/<short-description>`  
 
-- **`<type>`**: Either `feature` (for new functionality) or `bug` (for bug fixes).  
+- **`<type>`**: Either `feature` (for new functionality), `bug` (for bug fixes), or `task` (for other issues, such as documentation)
 - **`chat-<issue-number>`**: The GitHub issue number prefixed with `chat-` (e.g., `chat-42`).  
 - **`<short-description>`**: A brief, hyphen-separated description of the task (e.g., `add-message-timestamp`).  
 
 Release branches must follow this naming structure:  
-`release/<version>`  
+`release/<version>`
 
+Process repository does not have release branches - the `master` branch is considered the most up-to-date.
 ### Examples  
 - `feature/chat-45/add-file-upload`  
 - `bug/chat-12/fix-message-duplication`  
-- `release/1.0`  
+- `release/1.0`
 
 ### Rules  
 - Use lowercase letters and hyphens (no spaces or underscores).  
