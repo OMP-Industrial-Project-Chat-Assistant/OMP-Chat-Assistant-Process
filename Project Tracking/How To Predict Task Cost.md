@@ -7,3 +7,5 @@ Right now the only cost we consider is time.
 - All members are to provide a response within a reasonable time (usually 6 hours)
 - The manager takes the average and multiplies it by average mistake ratio in this category - this is the predicted amount of time to be spent on the issue
 
+Current average mistake ratio: 1
+
