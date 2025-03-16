@@ -7,7 +7,7 @@ Before you start, you need to:
 # How to track your time
 If all works correctly, click on the "Start Timer" when you open an issue
 ![image](<Pasted image 20250303191110.png>)
-Choose OMP Chat Assistant project and appropriate tag in the context menu, then click DONE
+Choose OMP Chat Assistant project, appropriate task, and appropriate tag in the context menu, then click DONE
 ![image](<Pasted image 20250303191214.png>)
 Once you stop working, click "Stop Timer" in the issue, or in the extension options
 ![image](<Pasted image 20250303191353.png>)

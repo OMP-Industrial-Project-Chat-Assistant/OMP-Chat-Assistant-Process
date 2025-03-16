@@ -1,8 +1,8 @@
 Русская версия: [Требования к Продукту](<Context and Requirements Management/RU/Требования/Требования к Продукту.md>)
 
 # Software Product Requirements Document  
-**Version:** 1.1
-**Date:** March 10, 2025  
+**Version:** 1.2
+**Date:** March 16, 2025  
 
 ---
 
@@ -14,33 +14,51 @@ The system shall:
 1.1.2 Return responses in Markdown format containing detailed answers to the submitted queries.  
 1.1.3 Generate responses **exclusively in Russian**.  
 1.1.4 Construct answers using **only** the following documentation sources:  
-   - Source files from the AuroraOS section: [`https://developer.auroraos.ru/doc/5.1.1/software_development/guides`](https://developer.auroraos.ru/doc/5.1.1/software_development/guides) (Markdown format)  
-   - Source files from the AuroraOS section: [`https://developer.auroraos.ru/doc/5.1.1/extended`](https://developer.auroraos.ru/doc/5.1.1/extended) (Markdown format)  
-   - Files from the GitLab repository: [`https://gitlab.com/omprussia/demos`](https://gitlab.com/omprussia/demos)  
-   - Files from the GitLab repository: [`https://gitlab.com/omprussia/examples`](https://gitlab.com/omprussia/examples)  
-   - Documentation on additional tools
+- Source files from the AuroraOS section: [`https://developer.auroraos.ru/doc/5.1.1/software_development/guides`](https://developer.auroraos.ru/doc/5.1.1/software_development/guides) (Markdown format)  
+- Source files from the AuroraOS section: [`https://developer.auroraos.ru/doc/5.1.1/extended`](https://developer.auroraos.ru/doc/5.1.1/extended) (Markdown format)  
+- Files from the GitLab repository: [`https://gitlab.com/omprussia/demos`](https://gitlab.com/omprussia/demos)  
+- Files from the GitLab repository: [`https://gitlab.com/omprussia/examples`](https://gitlab.com/omprussia/examples) 
+- Documentation on additional tools
 1.1.5 Exclude any information unrelated to the provided documentation sources.  
 1.1.6 Include direct hyperlinks to the referenced documentation pages within responses.  
 
 ---
 
 ## 2. Non-Functional Requirements  
+The team follows ISO25010 quality model. The following are quality attributes and sub-attributes, for which specific, measurable, and actionable procedures have been established.
+### 2.1 Performance
+2.1.1 **Time behaviour**: The system shall provide responses to queries within **≤2 minutes** under the following conditions
+2.1.2 **Resource Utilization**: The system should not utilize more than `M` GB of GPU memory. M is a value dependent on the chosen LLM parameters.
+`M = (32/Q)(P * 4B) * 1.2`, where:
 
-### 2.1 Performance  
-2.1.1 The system shall provide responses to queries within **≤2 minutes** under the following conditions:  
-   - Deployed on a server meeting the minimum technical specifications (to be defined in system documentation).  
+| **M**   | GPU memory (GB)                               |
+| ------- | --------------------------------------------- |
+| **P**   | Model parameters (e.g., 0.5B = 500,000,000)   |
+| **Q**   | Bits for loading the model (e.g., 16 bits)    |
+| **1.2** | 20% overhead for additional GPU memory usage. |
+`(500,000,000 * 4B) / (32/16) * 1.2 = 12 GB`.
+2.1.3 **Capacity**: The system shall support **concurrent usage by up to 10 active users** without degradation of response time or accuracy.
 
 ### 2.2 Maintainability  
-2.2.1 The product shall include **comprehensive documentation in Russian** covering:  
-   - Deployment procedures and infrastructure requirements.  
-   - User guide for interacting with the API.  
-   - Instructions for modifying or adding content sources used for response generation.  
-   - Versioning strategy for:  
-     - The product’s own documentation (e.g., release notes, changelogs).  
-     - External documentation sources (e.g., AuroraOS, GitLab repos).  
+2.2.1 **Modularity**: Whenever a specific module's behavior needs to be altered, only it and its submodules are affected.
+2.2.2 **Analysability**: The product shall include **comprehensive documentation in Russian** covering:  
+- Deployment procedures and infrastructure requirements.  
+- User guide for interacting with the API.  
+- Instructions for modifying or adding content sources used for response generation.
+- Instructions on product internal works
+- Versioning strategy for:  
+	- The product’s own documentation (e.g., release notes, changelogs).  
+    - External documentation sources (e.g., AuroraOS, GitLab repos).
+2.2.3 **Testability**: The product shall include mechanisms for testing the LLM efficiency, database efficiency, and central server efficiency. Every module should be structured in a way that allows mock testing.
 
-### 2.3 Scalability  
-2.3.1 The system shall support **concurrent usage by up to 10 active users** without degradation of response time or accuracy.
+### 2.3 Flexibility
+2.3.1 **Adaptability**: The system should:
+- Run on machines provided by the customer
+- Include a procedure for changing the LLM used
+- Include a procedure for changing the documentation used by LLM
+2.3.2 **Scalability**: The system should provide balancing of load between up to 10 users
+2.3.3 **Installability**: The system should include a procedure for installation that succeeds in expected environments
+2.3.4 **Replaceability**: The system should communicate with other systems via a singular API
 
 ---
 
@@ -59,3 +77,4 @@ The system shall:
 **Revision History:**  
 - v1.0 (2025-02-21): Initial release
 - v1.1 (2025-03-10): Clarifications on documentation coverage requirements from Mr. Suvorov
+- v1.2 (2025-03-16): Expansion of document and alignment with ISO 25010
