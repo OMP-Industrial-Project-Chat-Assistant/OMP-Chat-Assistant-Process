@@ -6,13 +6,13 @@ Before you start, you need to:
 - Accept invitation to workspace in your mail
 # How to track your time
 If all works correctly, click on the "Start Timer" when you open an issue
-![image](<Pasted image 20250303191110.png>)
+![image](<../Pictures/Pasted image 20250303191110.png>)
 Choose OMP Chat Assistant project, appropriate task, and appropriate tag in the context menu, then click DONE
-![image](<Pasted image 20250303191214.png>)
+![image](<../Pictures/Pasted image 20250303191214.png>)
 Once you stop working, click "Stop Timer" in the issue, or in the extension options
-![image](<Pasted image 20250303191353.png>)
+![image](<../Pictures/Pasted image 20250303191353.png>)
 # How to add time retroactively
 Open clockify workspace and go to calendar
-![image](<Pasted image 20250303192017.png>)
+![image](<../Pictures/Pasted image 20250303192017.png>)
 Click on an empty space in the calendar and fill out the form in the pop-up, then click "Done"
-![image](<Pasted image 20250303192101.png>)
+![image](<../Pictures/Pasted image 20250303192101.png>)
