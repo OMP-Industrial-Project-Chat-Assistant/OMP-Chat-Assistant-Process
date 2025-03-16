@@ -5,14 +5,14 @@ The customer is a subsidiary of OMP specializing in technical support and develo
 
 ---  
 # 2. Stakeholders  
-| Name                 | Role/Department                                                            | Responsibilities                                                                                                                 |
-| -------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Anastasiya Bozhko    | Technical Support & Developer Interaction. Primary Business Representative | Manages developer support, provides tools/materials, and collects feedback.                                                      |
-| Anastasiya Krukovets | Student Activity & R&D                                                     | Oversees student programs and R&D initiatives tied to Aurora OS.                                                                 |
-| Kirill Chuvilin      | Technical Support Director                                                 | Heads the Technical Support Department.                                                                                          |
-| Andrey Suvorov       | Automation & Dev Portal                                                    | Maintains the developer portal and automates technical processes.                                                                |
-| Evseev Sergey        | Documentation development                                                  | Leads creation, maintenance, and optimization of Aurora OS documentation.                                                        |
-| Innopolis University | Regulatory body                                                            | Since the project is part of IP course of Innopolis University, this organization enforces high standards of process visibility. |
+| Name                 | Role/Department                                                            | Responsibilities                                                                                                                 | Email             |
+| -------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Anastasiya Bozhko    | Technical Support & Developer Interaction. Primary Business Representative | Manages developer support, provides tools/materials, and collects feedback.                                                      | a.bozhko@omp.ru   |
+| Anastasiya Krukovets | Student Activity & R&D                                                     | Oversees student programs and R&D initiatives tied to Aurora OS.                                                                 |                   |
+| Kirill Chuvilin      | Technical Support Director                                                 | Heads the Technical Support Department.                                                                                          | k.chuvilin@omp.ru |
+| Andrey Suvorov       | Automation & Dev Portal                                                    | Maintains the developer portal and automates technical processes.                                                                | a.suvorov@omp.ru  |
+| Evseev Sergey        | Documentation development                                                  | Leads creation, maintenance, and optimization of Aurora OS documentation.                                                        | s.evseev@omp.ru   |
+| Innopolis University | Regulatory body                                                            | Since the project is part of IP course of Innopolis University, this organization enforces high standards of process visibility. |                   |
 
 ---  
 
