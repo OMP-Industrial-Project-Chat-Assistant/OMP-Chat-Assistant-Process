@@ -44,5 +44,5 @@ Depending on customer availability, an interview is called. During the interview
 - Further clarifications are asked by Interviewer A and Interviewer B
 - Once all questions by both Interviewers and the customers are exceeded, the meeting is concluded
 - Manager produces [Post-Interview Document](<../DocumentTemplates/EN/Post-Interview Document.md>) and puts it in `Context and Requirements Management/EN/Post-Interview Documents`
-- Manager then updates relevant documents per [Requirements Elicitation Document](<../Context and Requirements Management/EN/Requirements Elicitation>)
+- Manager then updates relevant documents per [Requirements Elicitation Document](<../Context and Requirements Management/EN/Requirements Elicitation.md>)
 After the interview, the manager formulates all changes to the requirements and sends them to customer for approval following the [Requirements Policy](<../Context and Requirements Management/EN/Requirements/Requirements Policy.md>)
