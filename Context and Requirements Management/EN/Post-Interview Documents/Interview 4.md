@@ -5,16 +5,16 @@ What was the customer feedback on the demo?
 
 # New requirements
 - Model should handle and filter irrelevant queries and obscene words.
-
 # Changes to old requirements
 
 # New requests
 ## Requests to our team
 - Questionnaire form should have 1-5 grading instead of current 1-10
 - Provide emails of team members so OMP can give us an access to the documentation repository (they already have our emails).
+- Provide our long-term plan translated to russian
 
 ## Requests to customer (OMP team)
-- Provide GitLab repository with Aurora SDK documentation.
+- Provide GitLab repository where we could store Aurora SDK documentation.
 - Provide Flutter part of the documentation.
 
 # New information
