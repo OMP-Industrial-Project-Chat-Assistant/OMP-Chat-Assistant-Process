@@ -63,7 +63,6 @@
         - GitLab `demos` and `examples` repositories.**
     - Do not provide answers to questions that provided documentation and examples cannot answer.
     - Only provide answers relevant to AuroraOS.
-
 ---
 
 ### Interfaces
@@ -80,7 +79,6 @@ Note: endpoint specifications are tentative. May change in the future
     {
       "query": "Как настроить AuroraOS SDK?",
     }
-    
     ```
     
 - **Response Body** (Success):
