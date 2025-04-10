@@ -80,7 +80,6 @@ Note: endpoint specifications are tentative. May change in the future
     {
       "query": "Как настроить AuroraOS SDK?",
     }
-    
     ```
     
 - **Response Body** (Success):
@@ -90,7 +89,6 @@ Note: endpoint specifications are tentative. May change in the future
   Для настройки AuroraOS SDK выполните следующие шаги:
   1. Установите базовые зависимости через [Aurora Store](<https://developer.auroraos.ru/doc/5.1.1/software_development/guides/setup.md>).
   2. Настройте среду разработки, как описано в [примерах GitLab](<https://gitlab.com/omprussia/examples/env-config>).
-
 ```
 
 - **Error Handling**:
