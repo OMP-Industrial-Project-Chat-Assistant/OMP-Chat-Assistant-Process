@@ -1,6 +1,6 @@
 # Introduction
 
-**Version:** 1.0
+**Version:** 1.1
 
 **Last Edit:** 10/04/2025
 
@@ -8,9 +8,15 @@
 
 **Owner:** Yaroslav Kim
 
+**Approval Status:** information as to whether the document has been approved or not, and who should approve it, if applicable
+
 **Type:** Template
 
 **Description:** This document contains a template for all other documents to follow.
+
+**Dependencies:**
+- [Requirement: Visibility](<link to be added>)
+- [Requirement: Readability](<link to be added>)
 
 # Justifications
 This document exists to enforce a standard across all process documents.
@@ -32,10 +38,14 @@ The following is a template of the generic document.
 
 **Owner:** person who owns the document and is responsible for keeping it up-to-date
 
+**Approval Status:** information as to whether the document has been approved or not, and who should approve it, if applicable
+
 **Type:** type of document
 
 **Description:** short description of this document
 
+**Dependencies:**
+- list all documents that this document depends on, or is based on
 
 # Justifications
 - Reasons for this document's existence
@@ -49,4 +59,5 @@ The following is a template of the generic document.
 Contains signed and dated entries about version history.
 ```
 # Changelog
+- v1.1. 10/04/2025 Yaroslav Kim updated the document to include dependencies and approval status
 - v1.0. 10/04/2025 Yaroslav Kim created the document
