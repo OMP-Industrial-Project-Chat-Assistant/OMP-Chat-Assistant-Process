@@ -8,7 +8,7 @@
 
 **Owner:** Yaroslav Kim
 
-**Approval Status:** information as to whether the document has been approved or not, and who should approve it, if applicable
+**Approval Status:** Not subject to approvals
 
 **Type:** Template
 
