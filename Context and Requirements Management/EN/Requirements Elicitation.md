@@ -1,3 +1,27 @@
+# Introduction
+
+**Version:** 1.1
+
+**Last Edit:** 13/04/2025
+
+**Last Editor:** Kirill Korikov
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** Not subject to approvals
+
+**Type:** Requirements
+
+**Description:** This document is a description of the requirements elicitation process.
+
+**Dependencies:**
+ - [Generic Document Template](<../../../DocumentTemplates/EN/Generic Document Template.md>)
+
+# Justifications
+This document exists to document the process of requirements elicitation.
+
+# Content
+
 The process of requirements elicitation is as follows:
 - Prepare [pre-interview document](<../../DocumentTemplates/RU/Pre-Interview Document.md>)
 - Inform customer of main themes outlined in the pre-interview document
@@ -8,3 +32,6 @@ The process of requirements elicitation is as follows:
 - Send new Requirements to customer for confirmation using emails provided in [Business Context](<../../Context and Requirements Management/EN/Context/Business Context.md>)
 - Update [Quality Requirements Assurance Procedures](<../../Quality Management/Requirements Assurance Procedures>)
 - Update [Plan](<../../Project Planning/Development Plan.md>)
+
+# Changelog
+- v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.
