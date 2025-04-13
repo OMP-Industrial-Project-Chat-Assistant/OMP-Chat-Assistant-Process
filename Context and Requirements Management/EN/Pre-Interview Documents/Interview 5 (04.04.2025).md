@@ -6,7 +6,7 @@
 
 **Last Editor:** Kirill Korikov
 
-**Owner:** Kirill Korikov
+**Owner:** Yaroslav Kim
 
 **Approval Status:** Not subject to approvals
 
