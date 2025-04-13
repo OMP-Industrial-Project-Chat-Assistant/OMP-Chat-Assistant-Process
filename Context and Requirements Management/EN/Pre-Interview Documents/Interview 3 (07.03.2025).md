@@ -1,4 +1,28 @@
-# Темы  
+# Introduction
+
+**Version:** 1.1
+
+**Last Edit:** 13/04/2025
+
+**Last Editor:** Kirill Korikov
+
+**Owner:** Kirill Korikov
+
+**Approval Status:** Not subject to approvals
+
+**Type:** Pre-interview
+
+**Description:** This document is a list of topics to discuss with the customer.
+
+**Dependencies:**
+ - [Generic Document Template](DocumentTemplates\EN\Generic Document Template.md)
+
+# Justifications
+This document exists as a scenario for the customer interview.
+
+# Content
+
+## Темы  
 Список тем для согласования с представителем компании:  
 
 1. **Демонстрация прогресса**:  
@@ -14,11 +38,11 @@
 4. **Оценка качества**:  
    - Критерии успеха для MVP.  
 
-# Демо  
+## Демо  
 - **План**: Демонстрация прогресса каждые две недели (например: работающий REST API, примеры ответов модели).  
 - **Инструкции**: Подготовить тестовые запросы и эталонные ответы для иллюстрации работы системы.  
 
-# Вопросы  
+## Вопросы  
 ### Для уточнения требований:  
 - Когда вы говорите о «балансе качества и скорости», **какие метрики** вы считаете приоритетными?  
 - Как вы планируете **интегрировать чек-лист оценки** в процесс тестирования: автоматически или вручную?  
@@ -30,3 +54,6 @@
 ### Организационные:  
 - Кто из команды ОМП будет **ответственным за сбор фидбека** от бета-тестеров?  
 - Какие **риски** вы видите в текущем плане (3-4 месяца на реализацию)?  
+
+# Changelog
+- v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.

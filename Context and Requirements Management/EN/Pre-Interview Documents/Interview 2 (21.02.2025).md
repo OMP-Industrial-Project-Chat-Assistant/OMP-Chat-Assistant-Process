@@ -1,4 +1,28 @@
-# Темы  
+# Introduction
+
+**Version:** 1.1
+
+**Last Edit:** 13/04/2025
+
+**Last Editor:** Kirill Korikov
+
+**Owner:** Kirill Korikov
+
+**Approval Status:** Not subject to approvals
+
+**Type:** Pre-interview
+
+**Description:** This document is a list of topics to discuss with the customer.
+
+**Dependencies:**
+ - [Generic Document Template](DocumentTemplates\EN\Generic Document Template.md)
+
+# Justifications
+This document exists as a scenario for the customer interview.
+
+# Content
+
+## Темы  
 Список тем заранее отправляется представителю от компании:  
 
 1. **Техническое решение (RAG)**:  
@@ -19,7 +43,7 @@
 # Демо  
 - На текущем этапе демонстрация не планируется.  
 
-# Вопросы  
+## Вопросы  
 ### Общие:  
 - Когда вы говорите о «proof-of-concept», **какие критерии успеха** вы рассматриваете?  
 - **Кто будет принимать решение** о переходе от PoC к полноценному решению?  
@@ -35,3 +59,6 @@
 ### Организационные:  
 - Как будет организовано **тестирование решения** вашими разработчиками?  
 - Какие **риски** вы видите в реализации этого PoC?  
+
+# Changelog
+- v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.

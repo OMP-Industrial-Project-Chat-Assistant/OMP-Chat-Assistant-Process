@@ -1,4 +1,27 @@
-# Темы  
+# Introduction
+
+**Version:** 1.1
+
+**Last Edit:** 13/04/2025
+
+**Last Editor:** Kirill Korikov
+
+**Owner:** Kirill Korikov
+
+**Approval Status:** Not subject to approvals
+
+**Type:** Pre-interview
+
+**Description:** This document is a list of topics to discuss with the customer.
+
+**Dependencies:**
+ - [Generic Document Template](DocumentTemplates\EN\Generic Document Template.md)
+
+# Justifications
+This document exists as a scenario for the customer interview.
+
+# Content
+## Темы  
 Список тем заранее отправляется представителю от компании, чтобы тот смог выбрать представителей компании, которым стоит присутствовать на встрече:  
 
 1. **Знакомство с командой**  
@@ -29,7 +52,7 @@
 8. **Языковые особенности**  
    - Поддержка других языков помимо русского.  
 
-# Вопросы  
+## Вопросы  
 Вопросы сформулированы так, чтобы помочь достроить юзер-стори и уточнить требования:  
 
 ### Общие вопросы:  
@@ -48,3 +71,7 @@
 - Есть ли у вас **тестовый датасет с примерами запросов/ответов**, и как мы можем его получить?  
 - Когда вы упоминаете «нельзя использовать внешние ресурсы», **распространяется ли это на open-source библиотеки**?  
 - Как вы определяете **целевой показатель в 80% точности**: на основе чего он рассчитан?  
+
+
+# Changelog
+- v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.
