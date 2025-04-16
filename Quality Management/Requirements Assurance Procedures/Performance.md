@@ -1,3 +1,27 @@
+# Introduction
+
+**Version:** 1.0
+
+**Last Edit:** 13.04.2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** N/A
+
+**Type:** Process
+
+**Description:** This document describes all the procedures associated with maintaining Functional Suitability
+
+**Dependencies:**
+- [Requirements](/Context%20and%20Requirements%20Management/EN/Requirements/Software%20Product%20Requirements.md)
+- [Business Context](/Context%20and%20Requirements%20Management/EN/Context/Business%20Context.md)
+
+# Justifications
+- Requirement assurance procedures must be properly documented per [Innopolis University needs](</Context and Requirements Management/EN/Context/Business Context.md>)
+- Requirement assurance procedures are needed to satisfy the outlined [requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>)
+
 # Quality Requirement Assurance Plan: Performance
 
 ## Quality Requirement Description
@@ -22,6 +46,11 @@ This characteristic represents the degree to which a product performs its functi
 
 **Time-To-Resolution Estimation:** amount of days equal estimated amount of hours divided by two (assuming 2 hours per day of work put in) <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
 
-**The Procedure**: Follow the [Contribution Guidelines](<Configuration Management/Contribution Guidelines.md>) to raise a new `fix` issue. Assign it to current sprint. Conduct quantization until the issue is resolved. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
+**The Procedure**: Follow the [Contribution Guidelines](</Configuration Management/Contribution Guidelines.md>) to raise a new `fix` issue. Assign it to current sprint. Conduct quantization until the issue is resolved. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
 
 **Exit criterias**: The system consistently (3 times in a row) takes less than 2 minutes to generate an answer for a specific test. <!--What conditions must be met to stop doing the activity-->
+
+
+# Changelog
+- v1.3 13/04/2025 - conversion of document to current format by Yaroslav Kim
+

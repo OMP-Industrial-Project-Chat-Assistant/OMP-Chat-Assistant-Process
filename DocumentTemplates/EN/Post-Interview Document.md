@@ -1,6 +1,6 @@
 # Introduction
 
-**Version:** 1.0
+**Version:** 1.1
 
 **Last Edit:** 10/04/2025
 
@@ -16,16 +16,16 @@
 
 **Dependencies:**
 - [Generic Document Template](</DocumentTemplates/EN/Generic Document Template.md>)
-- [Requirement: Visibility](<link to be added>)
-- [Requirement: Readability](<link to be added>)
-- [Requirement: Funcional Suitability](<link to be added>)
+- [Requirement: Maintainability](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>)
+- [Requirement: Funcional Suitability](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md#1-functional-requirements>)
+- [Business Context](</Context and Requirements Management/EN/Context/Business Context.md>)
 
 # Justifications
 - Requirements elicitation needs to follow a proper process, and results of interviews need to be logged.
 - Interview contents might need to be confirmed later by the customer
-- [Satisfy Innopolis University need for process visibility](<link to be added>)
-- [Satisfy Developer need for easily readable documentation](<link to be added>)
-- [Satisfy customer need for functional suitability](<link to be added>)
+- [Satisfy Innopolis University need for process visibility](</Context and Requirements Management/EN/Context/Business Context.md>)
+- [Satisfy Developer need for easily readable documentation](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>)
+- [Satisfy customer need for functional suitability](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md#1-functional-requirements>)
 
 # Content
 The following is a template of post-interview document
@@ -77,4 +77,5 @@ Contains signed and dated entries about version history.
 ```
 
 # Changelog
+- v1.1. 13/04/2025 - Yaroslav Kim fixed links
 - v1.0. 10/04/2025 - Document created by Yaroslav Kim

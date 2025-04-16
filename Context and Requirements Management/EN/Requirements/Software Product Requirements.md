@@ -1,14 +1,14 @@
 # Introduction
 
-**Version:** 1.3
+**Version:** 1.4
 
-**Last Edit:** 13/04/2025
+**Last Edit:** 16/04/2025
 
-**Last Editor:** Kirill Korikov
+**Last Editor:** Yaroslav Kim
 
 **Owner:** Yaroslav Kim
 
-**Approval Status:** AWAITING APPROVAL
+**Approval Status:** N/A
 
 **Type:** Requirements
 
@@ -17,14 +17,14 @@
 **Dependencies:**
  - [Generic Document Template](<../../../DocumentTemplates/EN/Generic Document Template.md>)
  - [Политика Требований](<../../RU/Требования/Политика Требований.md>)
- - [Требования к Продукту](<Context and Requirements Management/RU/Требования/Требования к Продукту.md>)
+ - [Требования к Продукту](<../../RU/Требования/Требования к Продукту.md>)
 
 # Justifications
 This document exists to provide concrete requirements to measure project's completion.
 
 # Content
 
-Русская версия: [Требования к Продукту](<Context and Requirements Management/RU/Требования/Требования к Продукту.md>)
+Русская версия: [Требования к Продукту](<../../RU/Требования/Требования к Продукту.md>)
 
 
 ## 1. Functional Requirements  
@@ -90,6 +90,7 @@ The team follows ISO25010 quality model. The following are quality attributes an
 3.2.1 All software components, libraries, and dependencies must be licensed under terms permitting **commercial use by Aurora OS** without restrictions.  
 
 # Changelog
+- v1.4. 16/04/2025 Yaroslav Kim. Link fixes
 - v1.3. 13/04/2025 Kirill Korikov updated the document to the new template.
 - v1.2 16/03/2025 Yaroslav Kim. Expansion of document and alignment with ISO 25010
 - v1.1 10/03/2025 Yaroslav Kim. Clarifications on documentation coverage requirements from Mr. Suvorov.

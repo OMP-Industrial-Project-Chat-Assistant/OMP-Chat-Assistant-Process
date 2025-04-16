@@ -1,10 +1,10 @@
 # Introduction
 
-**Version:** 1.1
+**Version:** 1.2
 
-**Last Edit:** 13/04/2025
+**Last Edit:** 16/04/2025
 
-**Last Editor:** Kirill Korikov
+**Last Editor:** Yaroslav Kim
 
 **Owner:** Yaroslav Kim
 
@@ -15,7 +15,7 @@
 **Description:** This document is a description of the customer, business scope, constraints
 
 **Dependencies:**
- - [Generic Document Template](DocumentTemplates\EN\Generic Document Template.md)
+ - [Generic Document Template](<../../../DocumentTemplates/EN/Generic Document Template.md>)
 
 # Justifications
 This document exists to clarify the scope of the project.
@@ -59,4 +59,5 @@ Customer believes that by implementing an LLM-powered chatbot that answers quest
 4. Innopolis University demands rigorous documentation of the development process
 
 # Changelog
+- v1.2. 16/04/2025 Yaroslav Kim fixed broken link
 - v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.

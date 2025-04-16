@@ -1,3 +1,28 @@
+# Introduction
+
+**Version:** 1.0
+
+**Last Edit:** 13.04.2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** N/A
+
+**Type:** Documentation
+
+**Description:** This document covers description of applicable quality attribute requirements of the project
+
+**Dependencies:**
+- [Business Context](</Context and Requirements Management/EN/Context/Business Context.md>)
+- [Requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>)
+
+# Justifications
+- This document covers [Innopolis University](/Context%20and%20Requirements%20Management/EN/Context/Business%20Context.md) need for procedure justification
+- This document is used to satisfy developer need for [analyzability and modifiability](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md#2-non-functional-requirements>)
+- Every quality attribute is justified by [requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>) elicited from the customer and [business context](</Context and Requirements Management/EN/Context/Business Context.md>)
+
 # Functional Requirements
 
 **Note on actors**: users do not interact with the system directly, but via a third-party solution. Developers or administrators will interact with the system directly when building the user-facing product.
@@ -105,7 +130,6 @@ Note: endpoint specifications are tentative. May change in the future
 Here’s the document with formatting inconsistencies resolved while preserving all content:
 
 ---
-<!-- REMOVED due to recitation instruction 2
 # Functional Suitability
 
 Per ISO 25010 - Functional Suitability is the degree to which a product fulfills stated and implied functions under specified conditions.
@@ -158,7 +182,6 @@ Degree to which the functions facilitate the accomplishment of specified tasks a
 **Note**: The testing group will be provided by the customer. Later, the metrics may change and cover a bigger set of users.
 
 ---
--->
 
 # Performance Efficiency
 
@@ -551,3 +574,6 @@ We can outline four main quality requirements that we wish to focus on in the fo
 2. Maintainability - the product will later on be handed off to the customer, who will want to modify it and deploy it themselves, and it also needs to be easy to maintain throughout half a year of development. Hence, it is important to keep the product as maintainable as possible.
 3. Portability - the product should be easy to install and it should be easy to replace its parts and products it uses.
 4. Reliability - the product should be reliable enough to not stop working at random.
+
+# Changelog
+- v1.0 - 13.04.2025. Conversion to new format. Yaroslav Kim

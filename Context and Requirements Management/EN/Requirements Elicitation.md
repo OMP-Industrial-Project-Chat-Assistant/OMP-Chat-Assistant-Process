@@ -1,10 +1,10 @@
 # Introduction
 
-**Version:** 1.1
+**Version:** 1.2
 
-**Last Edit:** 13/04/2025
+**Last Edit:** 16/04/2025
 
-**Last Editor:** Kirill Korikov
+**Last Editor:** Yaroslav Kim
 
 **Owner:** Yaroslav Kim
 
@@ -15,7 +15,7 @@
 **Description:** This document is a description of the requirements elicitation process.
 
 **Dependencies:**
- - [Generic Document Template](<../../../DocumentTemplates/EN/Generic Document Template.md>)
+ - [Generic Document Template](</DocumentTemplates/EN/Generic Document Template.md>)
 
 # Justifications
 This document exists to document the process of requirements elicitation.
@@ -34,4 +34,5 @@ The process of requirements elicitation is as follows:
 - Update [Plan](<../../Project Planning/Development Plan.md>)
 
 # Changelog
+- v1.2. 16/04/2025 Yaroslav Kim fixed the broken links.
 - v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.

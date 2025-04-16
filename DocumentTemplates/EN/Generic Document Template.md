@@ -1,6 +1,6 @@
 # Introduction
 
-**Version:** 1.1
+**Version:** 1.2
 
 **Last Edit:** 10/04/2025
 
@@ -15,15 +15,15 @@
 **Description:** This document contains a template for all other documents to follow.
 
 **Dependencies:**
-- [Requirement: Visibility](<link to be added>)
-- [Requirement: Readability](<link to be added>)
+- [Requirement: Maintainability](<../../Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>)
+- [Business Context](<../../Context and Requirements Management/EN/Context/Business Context.md>)
 
 # Justifications
 This document exists to enforce a standard across all process documents.
 
 The standard for high-quality documentation is emergent from following business goals:
-- [Satisfy Innopolis University need for process visibility](<link to be added>)
-- [Satisfy Developer need for easily readable documentation](<link to be added>)
+- [Satisfy Innopolis University need for process visibility](<../../Context and Requirements Management/EN/Context/Business Context.md>)
+- [Satisfy Developer need for easily readable documentation](<../../Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>)
 
 # Content
 The following is a template of the generic document.
@@ -59,5 +59,6 @@ The following is a template of the generic document.
 Contains signed and dated entries about version history.
 ```
 # Changelog
+- v1.2. 13/04/2025 Yaroslav Kim fixed links
 - v1.1. 10/04/2025 Yaroslav Kim updated the document to include dependencies and approval status
 - v1.0. 10/04/2025 Yaroslav Kim created the document

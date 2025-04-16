@@ -1,6 +1,30 @@
-**Last Updated**: March 30th, 2025
-**Version**: 1.2
+# Introduction
 
+**Version:** 1.3
+
+**Last Edit:** 13.04.2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** AWAITING APPROVAL
+
+**Type:** Planning
+
+**Description:** This document describes the overall plan of the project development
+
+**Dependencies:**
+- [Business Context](</Context and Requirements Management/EN/Context/Business Context.md>)
+- [Requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>)
+
+# Justifications
+- The plan is limited by the course duration.
+- The plan starts in March due to issues with scheduling in February.
+- [Satisfy Innopolis University need for process visibility](</Context and Requirements Management/EN/Context/Business Context.md>)
+- Satisfy the developer need for consistency in results
+
+# Content
 Note: Development plan might be out of date, if there are changes in the project timeline
 
 Here’s the development plan formatted as a table with **functionality-driven phases**, **2-week sprints**, and **demo milestones**:
@@ -28,9 +52,8 @@ Here’s the development plan formatted as a table with **functionality-driven p
 2. **Customer Touchpoints:** Demos occur every 2 weeks (last day of each sprint).  
 3. 33% of backup time is taken per assumption of possible 50% delay due to inexperience of the team. Supporting research:
 	- https://www.researchgate.net/publication/312530233_Predicting_the_delay_of_issues_with_due_dates_in_software_projects/download
-**Last Approved version:** *
-**Approved by:** AWAITING APPROVAL
-**Revision History:** 
-- 1.0 Initial high-level plan devised via Github projects
-- 1.1 Detailed project plan as Markdown table
-- 1.2 Second sprint is over 
+
+# Changelog
+- v1.2 Second sprint is over 
+- v1.1 Detailed project plan as Markdown table
+- v1.0 Initial high-level plan devised via Github projects
