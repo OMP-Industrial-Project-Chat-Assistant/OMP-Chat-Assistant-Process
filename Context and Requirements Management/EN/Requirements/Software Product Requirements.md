@@ -1,10 +1,31 @@
-Русская версия: [Требования к Продукту](<Context and Requirements Management/RU/Требования/Требования к Продукту.md>)
+# Introduction
 
-# Software Product Requirements Document  
-**Version:** 1.2
-**Date:** March 16, 2025  
+**Version:** 1.4
 
----
+**Last Edit:** 16/04/2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** N/A
+
+**Type:** Requirements
+
+**Description:** This document is a list of functional and quality requirements to the project.
+
+**Dependencies:**
+ - [Generic Document Template](<../../../DocumentTemplates/EN/Generic Document Template.md>)
+ - [Политика Требований](<../../RU/Требования/Политика Требований.md>)
+ - [Требования к Продукту](<../../RU/Требования/Требования к Продукту.md>)
+
+# Justifications
+This document exists to provide concrete requirements to measure project's completion.
+
+# Content
+
+Русская версия: [Требования к Продукту](<../../RU/Требования/Требования к Продукту.md>)
+
 
 ## 1. Functional Requirements  
 
@@ -60,8 +81,6 @@ The team follows ISO25010 quality model. The following are quality attributes an
 2.3.3 **Installability**: The system should include a procedure for installation that succeeds in expected environments
 2.3.4 **Replaceability**: The system should communicate with other systems via a singular API
 
----
-
 ## 3. Constraints  
 
 ### 3.1 Third-Party Dependencies  
@@ -70,11 +89,9 @@ The team follows ISO25010 quality model. The following are quality attributes an
 ### 3.2 Licensing  
 3.2.1 All software components, libraries, and dependencies must be licensed under terms permitting **commercial use by Aurora OS** without restrictions.  
 
----
-
-**Last Approved version:** 1.0
-**Approved by:** AWAITING APPROVAL
-**Revision History:**  
-- v1.0 (2025-02-21): Initial release
-- v1.1 (2025-03-10): Clarifications on documentation coverage requirements from Mr. Suvorov
-- v1.2 (2025-03-16): Expansion of document and alignment with ISO 25010
+# Changelog
+- v1.4. 16/04/2025 Yaroslav Kim. Link fixes
+- v1.3. 13/04/2025 Kirill Korikov updated the document to the new template.
+- v1.2 16/03/2025 Yaroslav Kim. Expansion of document and alignment with ISO 25010
+- v1.1 10/03/2025 Yaroslav Kim. Clarifications on documentation coverage requirements from Mr. Suvorov.
+- v1.0 21/02/2025 Yaroslav Kim. Initial release.

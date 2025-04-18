@@ -1,3 +1,29 @@
+# Introduction
+
+**Version:** 1.0
+
+**Last Edit:** 13.04.2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** N/A
+
+**Type:** Process
+
+**Description:** This document provides a description of the development process the team follows.
+
+**Dependencies:**
+- [Business Context](</Context and Requirements Management/EN/Context/Business Context.md>)
+- [Requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>)
+
+# Justifications
+- Definition of quality attributes needs to follow a specific pattern for consistency
+- [Satisfy Innopolis University need for process visibility](</Context and Requirements Management/EN/Context/Business Context.md>)
+- Satisfy customer need for regular demonstration of the product
+
+# Content
 The process is based around Extreme Programming. The process consists of 4 activities:
 - Task distribution
 - Sprint
@@ -12,7 +38,7 @@ Activities will follow a 2-week cycle pattern, depending on whether an interview
 | **Week 2** | Task Distribution, Sprint | Sprint  | Sprint    | Sprint, Wrap-up | Interview |
 
 Saturday and Sunday are considered rest days for everyone 
-# Task Distribution
+## Task Distribution
 This activity only starts after product requirements (if new are available) have been confirmed by the customer.
 This activity is when the assigned manager distributes the tasks between team members.
 - An issue is opened on github with a member assigned. All issues must follow [Contribution Guidelines](<../Configuration Management/Contribution Guidelines.md>)
@@ -22,20 +48,20 @@ This activity is when the assigned manager distributes the tasks between team me
 Developer may appeal the task distribution fairness to the manager. If another developer supports this appeal, the relevant github issues will be changed by the manager to reflect the change in distribution of tasks.
 
 It is the manager's responsibility to ensure that task distribution is done on Monday. All prep for that is done on Saturday and Sunday.
-# Sprint
+## Sprint
 Sprint is a multi-day activity that starts after Task Distribution. During a sprint, all developers work on their assigned tasks. 
 - All developers must update their time spent and self-reported estimation of progress in the issues they are assigned to in the project fields for this issue
-- All developers must track the time they spend on tasks. [How To Track Time](<../Project Tracking/How To Track Time.md>)
+- All developers must track the time they spend on tasks. [How To Track Time](</Project Tracking/Time Management.md>)
 - All developers must follow [Contribution Guidelines](<../Configuration Management/Contribution Guidelines.md>), which includes but not limited to:
 	- Branch naming conventions
 	- Issue and pull request templates
-# Wrap-up
+## Wrap-up
 Wrap-up is an activity meant for the team to figure out their status at the end of the sprint. It is either done via a telegram chat, or on a meeting.
 - Every team member is requested to provide usable artifacts that were produced within this week
 - Every team member raises their concerns in case such are present.
 - Manager and another russian-speaking team member formulate the next [Pre-Interview Document](<../DocumentTemplates/RU/Pre-Interview Document.md>) from the information gathered and put the document in `Context and Requirements Management/EN/Pre-Interview Documents`.
 In total this activity should take up to 1.5 hours.
-# Interview
+## Interview
 Depending on customer availability, an interview is called. During the interview, the following is done:
 - All demos are demonstrated by Interviewer A
 	- Customer comments are recorded by Interviewer B.
@@ -46,3 +72,6 @@ Depending on customer availability, an interview is called. During the interview
 - Manager produces [Post-Interview Document](<../DocumentTemplates/EN/Post-Interview Document.md>) and puts it in `Context and Requirements Management/EN/Post-Interview Documents`
 - Manager then updates relevant documents per [Requirements Elicitation Document](<../Context and Requirements Management/EN/Requirements Elicitation.md>)
 After the interview, the manager formulates all changes to the requirements and sends them to customer for approval following the [Requirements Policy](<../Context and Requirements Management/EN/Requirements/Requirements Policy.md>)
+
+# Changelog
+- v1.0. 13/04/2025 - conversion of document to current format

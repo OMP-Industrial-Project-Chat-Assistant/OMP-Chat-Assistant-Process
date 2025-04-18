@@ -1,8 +1,32 @@
-# Customer feedback on demo  
+# Introduction
+
+**Version:** 1.1
+
+**Last Edit:** 13/04/2025
+
+**Last Editor:** Kirill Korikov
+
+**Owner:** Kirill Korikov
+
+**Approval Status:** Not subject to approvals
+
+**Type:** Post-interview
+
+**Description:** This document is a summary of interview with the customer.
+
+**Dependencies:**
+ - [Generic Document Template](DocumentTemplates\EN\Generic Document Template.md)
+
+# Justifications
+This document exists as a record of the interview with the customer.
+
+# Content
+
+## Customer feedback on demo  
 **What was the customer feedback on the demo?**  
 - No explicit feedback on a demo was mentioned in the document.  
 
-# New requirements  
+## New requirements  
 **What new requirements were elicited?**  
 - Develop a **chatbot API** that:  
   - Answers questions about Aurora documentation **in Russian**.  
@@ -13,7 +37,7 @@
   - Must use **open-source solutions** only (with prior approval to ensure license compatibility).  
   - Must **not rely on external resources** during operation (self-contained system).  
 
-# New requests  
+## New requests  
 **What future artifacts did the customer request?**  
 - Hardware requirements specification if borrowing a server is needed.  
 - Confirmation of internship details (to be finalized by end of February).  
@@ -21,7 +45,7 @@
 **What we requested from the customer?**  
 - Access to Aurora documentation and code snippet repositories (to be provided in a few days).  
 
-# New information  
+## New information  
 **What new information is gained?**  
 - **Stakeholder roles**:  
   - Anastasiya Bozhko: Manages developer interaction/support (tools, feedback).  
@@ -33,3 +57,6 @@
 - **Organizational notes**:  
   - Chatbot deployment must allow for custom documentation/content.  
   - Open-source licensing compliance is critical.  
+
+# Changelog
+- v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.

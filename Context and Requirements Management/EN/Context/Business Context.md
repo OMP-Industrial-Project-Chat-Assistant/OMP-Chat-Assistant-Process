@@ -1,10 +1,34 @@
-# 1. Overview  
+# Introduction
+
+**Version:** 1.2
+
+**Last Edit:** 16/04/2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** Not subject to approvals
+
+**Type:** Overview
+
+**Description:** This document is a description of the customer, business scope, constraints
+
+**Dependencies:**
+ - [Generic Document Template](<../../../DocumentTemplates/EN/Generic Document Template.md>)
+
+# Justifications
+This document exists to clarify the scope of the project.
+
+# Content
+
+## 1. Overview  
 Customer: Sub-company of OMP (Technical Support Division for Aurora OS)  
 
 The customer is a subsidiary of OMP specializing in technical support and developer education for **Aurora OS**. Their goal is to empower developers and partners through resources, tools, and streamlined documentation, fostering ecosystem growth and adoption of Aurora OS.  
 
 ---  
-# 2. Stakeholders  
+## 2. Stakeholders  
 | Name                 | Role/Department                                                            | Responsibilities                                                                                                                 | Email             |
 | -------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | Anastasiya Bozhko    | Technical Support & Developer Interaction. Primary Business Representative | Manages developer support, provides tools/materials, and collects feedback.                                                      | a.bozhko@omp.ru   |
@@ -16,7 +40,7 @@ The customer is a subsidiary of OMP specializing in technical support and develo
 
 ---  
 
-# 3. Business Goals  
+## 3. Business Goals  
 1. Make documentation more usable
 2. Educate developers about Aurora OS and other OMP products
 3. Promote Aurora OS software ecosystem growth
@@ -24,7 +48,7 @@ The customer is a subsidiary of OMP specializing in technical support and develo
 
 Customer believes that by implementing an LLM-powered chatbot that answers questions about their documentation, they could fulfill all of those goals.
 
-# 4. Business Constraints/Demands
+## 4. Business Constraints/Demands
 1. Customer cannot employ non-russian employees.
 2. Customer forbids use of external resources during the product's work, such as third-party APIs.
 3. Customer requires the product to have the documentation in russian covering the following:
@@ -33,3 +57,7 @@ Customer believes that by implementing an LLM-powered chatbot that answers quest
 	3. Internal function
 	4. Risks
 4. Innopolis University demands rigorous documentation of the development process
+
+# Changelog
+- v1.2. 16/04/2025 Yaroslav Kim fixed broken link
+- v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.

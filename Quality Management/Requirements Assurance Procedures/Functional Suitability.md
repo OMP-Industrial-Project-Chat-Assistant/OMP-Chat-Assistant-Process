@@ -1,3 +1,27 @@
+# Introduction
+
+**Version:** 1.0
+
+**Last Edit:** 13.04.2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** N/A
+
+**Type:** Process
+
+**Description:** This document describes all the procedures associated with maintaining Functional Suitability
+
+**Dependencies:**
+- [Requirements](/Context%20and%20Requirements%20Management/EN/Requirements/Software%20Product%20Requirements.md)
+- [Business Context](/Context%20and%20Requirements%20Management/EN/Context/Business%20Context.md)
+
+# Justifications
+- Requirement assurance procedures must be properly documented per [Innopolis University needs](</Context and Requirements Management/EN/Context/Business Context.md>)
+- Requirement assurance procedures are needed to satisfy the outlined [requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>)
+
 # Quality Requirement Assurance Plan: Functional Suitability
 
 ## Quality Requirement Description
@@ -23,7 +47,7 @@ This characteristic represents the degree to which a product or system provides 
 
 **Time-To-Resolution Estimation:** Reevaluate the long-term plan and assign the issue to one of the sprints. <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
 
-**The Procedure**: Follow the [Contribution Guidelines](<Configuration Management/Contribution Guidelines.md>) to raise a new `task` issue involving updates to requirements documentation and all other relevant documents. Assign it to current sprint and fulfill until the next sprint starts. Send documents meant for customer reading to the customer for approval. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
+**The Procedure**: Follow the [Contribution Guidelines](</Configuration Management/Contribution Guidelines.md>) to raise a new `task` issue involving updates to requirements documentation and all other relevant documents. Assign it to current sprint and fulfill until the next sprint starts. Send documents meant for customer reading to the customer for approval. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
 
 **Exit criterias**: Once the customer has approved the new documentation, consider the `task` issue resolved <!--What conditions must be met to stop doing the activity-->
 ### Activity 2: Functional Correctness Fulfillment
@@ -50,7 +74,11 @@ This characteristic represents the degree to which a product or system provides 
 
 **Time-To-Resolution Estimation:** Estimated time divided by amount of daily hours of work per assignee. In case the issue is connected to lack of sources that need to be requested from customer - add another week to account for customer's process velocity <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
 
-**The Procedure**: Follow the [Contribution Guidelines](<Configuration Management/Contribution Guidelines.md>) to raise a new `fix` issue. Assign it to current sprint. Conduct collective research on the problem to determine proper assignee. Resolve the issue. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
+**The Procedure**: Follow the [Contribution Guidelines](</Configuration Management/Contribution Guidelines.md>) to raise a new `fix` issue. Assign it to current sprint. Conduct collective research on the problem to determine proper assignee. Resolve the issue. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
 
 **Exit criterias**: The question is answered correctly <!--What conditions must be met to stop doing the activity-->
 
+
+
+# Changelog
+- v1.3 13/04/2025 - conversion of document to current format by Yaroslav Kim
