@@ -19,6 +19,7 @@
  - [Политика Требований](<../../RU/Требования/Политика Требований.md>)
  - [Требования к Продукту](<../../RU/Требования/Требования к Продукту.md>)
  - [Записи интервью](<../Post-Interview Documents/>)
+ - [Бизнес-контекст](<../Context/Business Context.md>)
 
 # Justifications
 This document exists to provide concrete requirements to measure project's completion.
