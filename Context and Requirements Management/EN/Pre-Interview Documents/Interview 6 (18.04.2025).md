@@ -1,10 +1,10 @@
 # Introduction
 
-**Version:** 1.1
+**Version:** 1.0
 
-**Last Edit:** 13/04/2025
+**Last Edit:** 18/04/2025
 
-**Last Editor:** Kirill Korikov
+**Last Editor:** Yaroslav Kim
 
 **Owner:** Yaroslav Kim
 
@@ -23,7 +23,8 @@ This document exists as a scenario for the customer interview.
 # Content
 
 ## Темы
-- Базовое покрытие наших исследований в этом спринте
+- Покрытие дальнейших исследований квантизации
+С ПРОШЛОЙ ВСТРЕЧИ:
 - Обсуждение условий стажировки
 - Обсуждение вопроса предоставления ресурсов
 ## Демо
@@ -33,4 +34,4 @@ This document exists as a scenario for the customer interview.
 - Какова ситуация с выдачей ресурсов? Когда и как будут выданы вычислительные ресурсы?
 
 # Changelog
-- v1.1. 13/04/2025 Kirill Korikov updated the document to the new template.
+- v1.0. 18/04/2025 Yaroslav Kim created the document

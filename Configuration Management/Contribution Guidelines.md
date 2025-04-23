@@ -1,4 +1,29 @@
-# Contribution Guidelines
+# Introduction
+
+**Version:** 1.1
+
+**Last Edit:** 16.04.2025
+
+**Last Editor:** Yaroslav Kim
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** N/A
+
+**Type:** Process
+
+**Description:** This document describes how to contribute to the project.
+
+**Dependencies:**
+- [Business Context](<../Context and Requirements Management/EN/Context/Business Context.md>)
+- [Software Product Requirements](<../Context and Requirements Management/EN/Requirements/Software Product Requirements.md>) 
+
+# Justifications
+- The project requires consistent rules on contribution and changes. This is necessary to maintain [Maintainability](<../Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>) requirement.
+- [Innopolis University](<../Context and Requirements Management/EN/Context/Business Context.md>) requires a certain level of [analyzability](<../Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>) of the process.
+
+# Content
+## Contribution Guidelines
 
 This document outlines the process for contributing to [OMP Chat Assistant repository](https://github.com/OMP-Industrial-Project-Chat-Assistant/OMP-Chat-Assistant), including issue creation, branch naming conventions, pull request workflows, and time tracking. Follow these guidelines to ensure consistency and efficiency in collaborative development.
 
@@ -6,7 +31,7 @@ All developers are strongly recommended to use **GitHub Desktop**.
 
 ---
 
-## Table of Contents
+### Table of Contents
 1. [Issue Guidelines](#issue-guidelines)
 2. [Branch Naming Convention](#branch-naming-convention)
 3. [Assigning Branches to Issues](#assigning-branches-to-issues)
@@ -18,40 +43,34 @@ All developers are strongly recommended to use **GitHub Desktop**.
 
 ---
 
-## Issue Guidelines <a name="issue-guidelines"></a>
+### Issue Guidelines <a name="issue-guidelines"></a>
 
-### Issue Template
-All issues must include **predicted work hours** and **actual time spent** (tracked via Clockify). Use this template when creating issues:
+#### Issue Template
+All issues include **predicted work hours**, **actual time spent** (tracked via Clockify), and **self-reported completion status** in the github sidebar. Use this template when creating issues:
 
 ````markdown
-### **Description**  
+#### **Description**  
 - **What**: Explain the problem or feature.  
 - **Why**: Business/user impact (e.g., "Users receive duplicate messages, causing confusion").  
 - **Reproduction Steps** (for bugs):  
   1. Step 1  
   2. Step 2  
 
-### **Acceptance Criteria**  
+#### **Acceptance Criteria**  
 - [ ] Criteria 1 (e.g., "Messages must render uniquely in the UI")  
 - [ ] Criteria 2  
 
-### **Work Estimation**  
-| Type                | Hours |  
-|---------------------|-------|  
-| **Predicted Work**  | 5     |  
-| **Actual Work**     | _TBD_ |  
-
-### **Additional Notes** 
+#### **Additional Notes** 
 - **Linked Resources**: Attach designs, API docs, or related PRs.  
 ````
 
-### Rules
+#### Rules
 1. **Estimating Work**  
    - Break tasks into sub-tasks if predicted work exceeds **12 hours**.  
    - Update estimates if scope changes (add a comment explaining changes).  
 2. **Time Tracking**  
    - Log time in Clockify **regularly** under the correct project and tag.  
-   - After resolving the issue, update `Actual Work` in the issue (e.g., `| **Actual Work** | 6 |`).  
+   - After resolving the issue, update `Actual Work` in the issue. 
 3. **Closing Issues**  
    - Only close after:  
      - All acceptance criteria are met.  
@@ -60,9 +79,9 @@ All issues must include **predicted work hours** and **actual time spent** (trac
 
 ---
 
-## Branch Naming Convention <a name="branch-naming-convention"></a>
+### Branch Naming Convention <a name="branch-naming-convention"></a>
 
-### Format  
+#### Format  
 Non-release branches must follow this naming structure:  
 `<type>/chat-<issue-number>/<short-description>`  
 
@@ -73,19 +92,21 @@ Non-release branches must follow this naming structure:
 Release branches must follow this naming structure:  
 `release/<version>`
 
+Documentation release branches have same versioning as the project.
+
 Process repository does not have release branches - the `master` branch is considered the most up-to-date.
-### Examples  
+#### Examples  
 - `feature/chat-45/add-file-upload`  
 - `bug/chat-12/fix-message-duplication`  
 - `release/1.0`
 
-### Rules  
+#### Rules  
 - Use lowercase letters and hyphens (no spaces or underscores).  
 - Keep descriptions concise (3–5 words).  
 
 ---
 
-## Assigning Branches to Issues <a name="assigning-branches-to-issues"></a>
+### Assigning Branches to Issues <a name="assigning-branches-to-issues"></a>
 
 1. **Link Branches to Issues**  
    - Add a comment to the issue with a link to the branch (e.g., `Working on this in [branch-name]`).  
@@ -93,13 +114,13 @@ Process repository does not have release branches - the `master` branch is consi
 
 ---
 
-## Creating Pull Requests <a name="creating-pull-requests"></a>
+### Creating Pull Requests <a name="creating-pull-requests"></a>
 
-### Timing  
+#### Timing  
 - **Before the wrap-up meeting**: Create a PR targeting the **latest release branch** (e.g., `release/1.2.0`).  
 - Ensure PRs are created early enough for review and discussion.  
 
-### Steps  
+#### Steps  
 1. **Push Changes**  
    Commit and push your branch to the remote repository.  
 2. **Create a PR**  
@@ -113,9 +134,9 @@ Process repository does not have release branches - the `master` branch is consi
 
 ---
 
-## Merging and Cleanup <a name="merging-and-cleanup"></a>
+### Merging and Cleanup <a name="merging-and-cleanup"></a>
 
-### After Approval  
+#### After Approval  
 1. **Merge into Release Branch**  
 2. **Delete the Branch**  
    - Check the "Delete branch" option in GitHub after merging.  
@@ -128,7 +149,7 @@ Process repository does not have release branches - the `master` branch is consi
 
 ---
 
-## Best Practices <a name="best-practices"></a>
+### Best Practices <a name="best-practices"></a>
 
 1. **Sync with Release Branch**  
    Regularly rebase your branch with the latest release branch to avoid conflicts:  
@@ -145,27 +166,27 @@ Process repository does not have release branches - the `master` branch is consi
 
 ---
 
-## Pull Request Template <a name="pull-request-template"></a>
+### Pull Request Template <a name="pull-request-template"></a>
 
 ```markdown  
-### Data  
+#### Data  
 Predicted work hours: <put prediction based on planning poker>  
 Actual work hours: <add amount of hours spent on issue after completion>  
 
-### Description  
+#### Description  
 <!-- Explain the purpose of this PR and link to the issue (e.g., Fix #45). -->  
 
-### Changes  
+#### Changes  
 - Change 1  
 - Change 2  
 
-### Testing Steps  
+#### Testing Steps  
 1. Step 1 to test  
 2. Step 2 to test  
 
-### Screenshots/GIFs (if applicable)  
+#### Screenshots/GIFs (if applicable)  
 
-### Checklist  
+#### Checklist  
 - [ ] Tests added/updated  
 - [ ] Documentation updated  
 - [ ] Code linted  
@@ -174,7 +195,7 @@ Actual work hours: <add amount of hours spent on issue after completion>
 
 ---
 
-## Example Workflow <a name="example-workflow"></a>
+### Example Workflow <a name="example-workflow"></a>
 
 1. **Start Tracking Time**  
    - Before any action, start tracking time in Clockify under the `OMP Chat Assistant` project with the issue tag (e.g., `#45`).  
@@ -198,3 +219,7 @@ Actual work hours: <add amount of hours spent on issue after completion>
 6. **Cleanup**  
    - Delete the branch locally and remotely.  
    - Update the issue’s `Actual Work` field with time logged in Clockify.  
+
+# Changelog
+- v1.0 - 13.04.2025. Conversion to current format of documents. Yaroslav Kim
+- v1.1 - 16.04.2025. Link fixes. Yaroslav Kim
