@@ -26,8 +26,8 @@ This document exists as a record of the interview with the customer.
 Мы не продемонстрировали ничего нового. Из прогресса по спринтам только документация по проведённым исследованиям.
 
 
-([Cсылаясь на прошлую демонстрацию](https://github.com/OMP-Industrial-Project-Chat-Assistant/OMP-Chat-Assistant-Process/blob/master/Context%20and%20Requirements%20Management/EN/Post-Interview%20Documents/Interview%204.md))
-интересует фильтрация нерелевантных вопросов/ответов.
+([Referring the previous demonstration](https://github.com/OMP-Industrial-Project-Chat-Assistant/OMP-Chat-Assistant-Process/blob/master/Context%20and%20Requirements%20Management/EN/Post-Interview%20Documents/Interview%204.md))
+customer is interested in irrelevant questions/answers filtration.
 
 ## New requirements
 none

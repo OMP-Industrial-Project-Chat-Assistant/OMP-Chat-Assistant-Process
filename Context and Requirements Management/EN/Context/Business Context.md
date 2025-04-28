@@ -45,6 +45,7 @@ The customer is a subsidiary of OMP specializing in technical support and develo
 2. Educate developers about Aurora OS and other OMP products
 3. Promote Aurora OS software ecosystem growth
 4. Popularize Aurora OS and other OMP products
+5. Test the hypothesis of using the AI to explain the SDK documentation.
 
 Customer believes that by implementing an LLM-powered chatbot that answers questions about their documentation, they could fulfill all of those goals.
 
