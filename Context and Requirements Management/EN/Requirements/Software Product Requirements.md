@@ -1,8 +1,8 @@
 # Introduction
 
-**Version:** 1.4
+**Version:** 1.5
 
-**Last Edit:** 16/04/2025
+**Last Edit:** 28/04/2025
 
 **Last Editor:** Yaroslav Kim
 
@@ -37,16 +37,20 @@ In some cases, instead of a number, brackets include mention of the topic the re
 ### 1.1 API Integration & Response Handling  
 The system shall:  
 1.1.1 Process user queries related to documentation via a defined API endpoint.(1)  
+
 1.1.2 Return responses in Markdown format containing detailed answers to the submitted queries.(1)
-1.1.3 Generate responses **exclusively in Russian**.(1)
-    1.1.3.1 English parts of the documentation (such as code snippets) don't have to be translated.(2)
+
+1.1.3 Generate responses **exclusively in Russian**.(1) English parts of the documentation (such as code snippets) don't have to be translated.(2)
+
 1.1.4 Construct answers using **only** the following documentation sources:(1)
 - Source files from the AuroraOS section: [`https://developer.auroraos.ru/doc/5.1.1/software_development/guides`](https://developer.auroraos.ru/doc/5.1.1/software_development/guides) (Markdown format)  
 - Source files from the AuroraOS section: [`https://developer.auroraos.ru/doc/5.1.1/extended`](https://developer.auroraos.ru/doc/5.1.1/extended) (Markdown format)  
 - Files from the GitLab repository: [`https://gitlab.com/omprussia/demos`](https://gitlab.com/omprussia/demos)  
 - Files from the GitLab repository: [`https://gitlab.com/omprussia/examples`](https://gitlab.com/omprussia/examples) 
 - Documentation on additional tools
+
 1.1.5 Exclude any information unrelated to the provided documentation sources.(4)  
+
 1.1.6 Include direct hyperlinks to the referenced documentation pages within responses.(1)  
 
 ---
@@ -55,8 +59,11 @@ The system shall:
 The team follows ISO25010 quality model. The following are quality attributes and sub-attributes, for which specific, measurable, and actionable procedures have been established.
 ### 2.1 Performance
 (Time and resource utilization performance requirements were elicited during the communication with the customer in the Telegram chat.)
+
 2.1.1 **Time behaviour**: The system shall provide responses to queries within **≤2 minutes** under the following conditions
+
 2.1.2 **Resource Utilization**: The system should not utilize more than 16 GB of GPU memory which are provided by the customer's hardware. M is a GPU memory that is actually used and is dependent on the chosen LLM parameters.
+
 `M = (32/Q)(P * 4B) * 1.2`, where:
 
 | **M**   | GPU memory (GB)                               |
@@ -69,6 +76,7 @@ The team follows ISO25010 quality model. The following are quality attributes an
 
 ### 2.2 Maintainability  
 2.2.1 **Modularity**: Whenever a specific module's behavior needs to be altered, only it and its submodules are affected.('Proof-of-concept' business goal)
+
 2.2.2 **Analysability**: The product shall include **comprehensive documentation in Russian** covering: ('Proof-of-concept' business goal)
 - Deployment procedures and infrastructure requirements.  
 - User guide for interacting with the API.  
@@ -85,8 +93,11 @@ The team follows ISO25010 quality model. The following are quality attributes an
 - Run on machines provided by the customer(1)
 - Include a procedure for changing the LLM used(1)
 - Include a procedure for changing the documentation used by LLM(1)
+
 2.3.2 **Scalability**: The system should provide balancing of load between up to 10 users(2)
+
 2.3.3 **Installability**: The system should include a procedure for installation that succeeds in expected environments(1)
+
 2.3.4 **Replaceability**: The system should communicate with other systems via a singular API(1)
 
 ## 3. Constraints  
@@ -100,6 +111,7 @@ The team follows ISO25010 quality model. The following are quality attributes an
 3.2.1 All software components, libraries, and dependencies must be licensed under terms permitting **commercial use by Aurora OS** without restrictions.(1)
 
 # Changelog
+- v1.5. 27/04/2025 Yaroslav Kim. Fixed formatting
 - v1.4. 16/04/2025 Yaroslav Kim. Link fixes
 - v1.3. 13/04/2025 Kirill Korikov updated the document to the new template.
 - v1.2 16/03/2025 Yaroslav Kim. Expansion of document and alignment with ISO 25010
