@@ -1,11 +1,29 @@
-**Version**: 2.0  
-**Last Updated**: 04.05.2025  
+# Introduction
+
+**Version:** 2.1
+
+**Last Edit:** 04.05.2025
+
+**Last Editor:** Kirill Korikov
+
+**Owner:** Yaroslav Kim
+
+**Approval Status:** N/A
+
+**Type:** Documentation
+
+**Description:** This document describes potential project risks and ways to mitigate them.
+
+**Dependencies:**
+- [Business context document](/Context%20and%20Requirements%20Management/EN/Context/Business%20Context.md)
+
+# Justifications
+- This document covers [Innopolis University](/Context%20and%20Requirements%20Management/EN/Context/Business%20Context.md) need for risk management.
 
 ### **Risk Identification and Management Process**  
 1. **Brainstorming Risks During Sprint Meetings**  
-   - During each sprint meeting, the team will dedicate 15–30 minutes to brainstorm potential risks.  
+   - During each sprint meeting, the team will dedicate time to brainstorm potential risks.  
    - Risks will be evaluated based on their probability and impact, and new risks will be added to this document.  
-   - Existing risks will be reviewed to assess whether their probability or impact has changed.  
 
 2. **Monitoring Risks**   
    Mitigation progress will be tracked in sprint retrospectives.  
@@ -32,3 +50,8 @@
 *Chance of identified risk happening. From 1 to 5 where 1 - unlikely to happen, 5 - most likely will happen.
 
 **How much of a project will be changed in case of encountering and mitigating this risk. From 1 to 5 where 1 - project will require a small fix, usually taking no more than 1 hour of work, 5 - whole project has to be reconsidered.
+
+# Changelog
+- v2.1 - 04.05.2025. Conversion to new format. Kirill Korikov
+- v2.0 - 04.05.2025. Expanded risks. Kirill Korikov
+- v1.1 - 30.03.2025.
