@@ -2,9 +2,9 @@
 
 **Version:** 1.0
 
-**Last Edit:** 13.04.2025
+**Last Edit:** 06.05.2025
 
-**Last Editor:** Yaroslav Kim
+**Last Editor:** Vagif Khalilov
 
 **Owner:** Yaroslav Kim
 
@@ -19,7 +19,7 @@
 - [Requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>)
 
 # Justifications:
-- This architecture allows for easy disribution of labor between developers, helping satisfy [Maintainability](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>)
+- This architecture allows for easy distribution of labor between developers, helping satisfy [Maintainability](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md#22-maintainability>)
 - This specific architecture is the only known way of satisfying the functional requirements of the project.
 
 # Content
