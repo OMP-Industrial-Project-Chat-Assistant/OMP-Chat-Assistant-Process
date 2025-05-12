@@ -1,14 +1,14 @@
 # Introduction
 
-**Version:** 1.0
+**Version:** 1.5
 
 **Last Edit:** 13.04.2025
 
 **Last Editor:** Yaroslav Kim
 
-**Owner:** Yaroslav Kim
+**Owner:** Vagif Khalilov
 
-**Approval Status:** N/A
+**Approval Status:** Reviewed by Yaroslav Kim
 
 **Type:** Process
 
@@ -25,7 +25,9 @@
 # Quality Requirement Assurance Plan: Maintainability
 
 ## Quality Requirement Description
+
 This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.
+
 ---
 
 # Quality Requirement Assurance Plan: Maintainability  
@@ -34,14 +36,14 @@ This characteristic represents the degree of effectiveness and efficiency with w
 ---
 
 ## **Activity 1: Architectural Modularity Assurance**  
-**Source:** Proof-of-concept business goal (2.2.1)  
+**Source:** Ensure ease of product development
 **Triggers:**  
-- Incident report of cascading failures after a module change  
+- Report of cascading failures after a module change  
 - Aurora OS documentation version update requiring integration  
 
 ### **Training Required**  
 1. **SOLID Principles**: To enforce decoupled, single-responsibility modules.
-2. 2**Chaos Testing**: To validate failure isolation (critical for GPU-bound systems).  
+2. **Chaos Testing**: To validate failure isolation (critical for GPU-bound systems).  
 
 ### **Measurements**  
 | Metric | Target | Measurement Method |  
@@ -74,21 +76,21 @@ This characteristic represents the degree of effectiveness and efficiency with w
    - Generate dependency graph via `draw.io`.  
 3. **Redesign**:  
    - Define new interfaces.  
-   - Conduct peer review with lead developer.  
+   - Conduct peer review with another developer.  
 4. **Testing**:  
    - Deploy to `test` environment with chaos monkey (random module failures).  
    - Validate isolation via `pytest -m "integration"`.  
 5. **Documentation**:  
-   - Update `ARCHITECTURE.md` with revised diagrams.    
+   - Update `Architectural Design/Architecture.md` with revised diagrams.    
 
 ### **Artifacts**  
 - **Input**: Incident report, SonarQube analysis  
 - **Output**: Updates contracts between modules, Chaos test results, Update diagrams in `Architectural Management` folder  
 
 ### **Exit Criteria**  
-- **Zero** cross-module failures in 72 hours of chaos testing.  
-- SonarQube score **≥A** for module independence.  
-- Approval via **signed-off checklist** by lead developer.  
+- **Zero** cross-module failures in 72 hours of chaos testing.
+- SonarQube score **≥A** for module independence.
+- Approval by 3/4 developers.
 
 ---
 
@@ -96,3 +98,4 @@ This characteristic represents the degree of effectiveness and efficiency with w
 # Changelog
 - v1.3 13/04/2025 - conversion of document to current format by Yaroslav Kim
 - v1.4 12/05/2025 - update by Vagif Khalilov
+- v1.5 12/05/2025 - review and updates by Yaroslav Kim
