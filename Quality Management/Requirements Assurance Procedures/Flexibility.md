@@ -52,9 +52,9 @@ Degree to which a product can be adapted to changes in its requirements, context
 
 **Tools**:  SonarQube (Static analysis for module cohesion), Testcontainers: Isolated testing of changed modules.  <!--What tools (software, browser extensions, etc) should be used-->
 
-**Entry criterias**: Change in a code affects LLM or Embedding model business logic. <!--What conditions must be met to start doing the activity. For example, if we are using SonarQube to ascertain maintainability, we might forego any recommendations in regards to lets say thread safety due to some reason, so entry criteria won't be met even if a trigger for the procedure (fall in rating) fired.-->
+**Entry criterias**: Change in a code affects LLM or Embedding model logic. <!--What conditions must be met to start doing the activity. For example, if we are using SonarQube to ascertain maintainability, we might forego any recommendations in regards to lets say thread safety due to some reason, so entry criteria won't be met even if a trigger for the procedure (fall in rating) fired.-->
 
-**Effort Estimation:** Planning poker <!--What methodology could be used to estimate the amount of effort required. E.g. planning poker to estimate amount of work-hours that a developer spends-->
+**Effort Estimation:** Estimated by the manager <!--What methodology could be used to estimate the amount of effort required. E.g. planning poker to estimate amount of work-hours that a developer spends-->
 
 **Time-To-Resolution Estimation:** Adaptability issues can mostly be done during one week of one team member work, including few days of communication with the customer in cases regarding hardware discussion. <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
 
@@ -62,8 +62,8 @@ Degree to which a product can be adapted to changes in its requirements, context
 1. Gather updated specifications (LLM/Hardware/documentation updates).
 2. Deploy the system within the updated specifications.
 3. (In case of updated documentation) test the documentation upload functionality.
-4. Run system with a basic input.
-5. Validate system behavior (there is a response, output is consistent, all the documentation is taken into account).
+4. Run system with a basic input (e.g. "How to add the Bluetooth support?").
+5. Validate system behavior (there is a response, output is consistent with the system behavior before the updates, all the documentation is taken into account).
 <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
 
 **Exit criterias**: 
@@ -83,20 +83,26 @@ Customer wants to test the system with their test group.<!--What happens to trig
 
 **Measurements**: Hardware power required to support the 10 concurrent users. <!--What measurements reflect the efficiency of the activity-->
 
-**Tools**: Grafana  <!--What tools (software, browser extensions, etc) should be used-->
+**Tools**: Gatling(load testing), Grafana(monitoring)  <!--What tools (software, browser extensions, etc) should be used-->
 
 **Entry criterias**: LLM/embedding model changed, architecture changed. <!--What conditions must be met to start doing the activity. For example, if we are using SonarQube to ascertain maintainability, we might forego any recommendations in regards to lets say thread safety due to some reason, so entry criteria won't be met even if a trigger for the procedure (fall in rating) fired.-->
 
-**Effort Estimation:** Planning poker <!--What methodology could be used to estimate the amount of effort required. E.g. planning poker to estimate amount of work-hours that a developer spends-->
+**Effort Estimation:** Estimated by the manager <!--What methodology could be used to estimate the amount of effort required. E.g. planning poker to estimate amount of work-hours that a developer spends-->
 
 **Time-To-Resolution Estimation:** The time it takes to research LLM optimization and possible architecture improvements, and implement them (may take from 1 to 2 sprints). <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
 
 **The Procedure**: 
 1. Make sure the system is up and running.
-2. Conduct load testing using the Grafana.
-3. Monitor the data and model's answers adequacy. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
+2. Run system for a single user to get the standard performance metrics.
+3. Note the response time and resource usage. Assess the model's response adequacy (did the answer satisfy the question by your own judgement?)
+4. Test the system with the 10 users.
+5. Repeat step 3.
+6. Run same tests for the 30 mins.
+7. Repeat step 3.
+8. Compare the metrics for the one user 10 concurrent users and 10 concurrent users for prolonged time.
+9. If load testing reveals metrics bottlenecks, bring up this issue with the team. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
 
-**Exit criterias**: All 10 users complete tasks without errors. Response times don't deviate under the tested load. <!--What conditions must be met to stop doing the activity-->
+**Exit criterias**: All 10 users complete tasks without errors. Response times don't deviate under the tested load. System resource usage doesn't deviate from the usual one. <!--What conditions must be met to stop doing the activity-->
 
 
 ### Activity 3: Replaceability Fulfillment
@@ -108,7 +114,7 @@ Customer wants to send a request to the system from a new resource..<!--What hap
 
 **Conductor**: Vagif Khalilov, Developer <!--Who must handle this activity (Specify a person and their qualification)-->
 
-**Training Required:** Basics of networking, architectural design <!--What training should the person have undertaken before activity-->
+**Training Required:** REST API knowledge, functional testing <!--What training should the person have undertaken before activity-->
 
 **Measurements**: Time it takes to adapt to the system's API from a new resource. <!--What measurements reflect the efficiency of the activity-->
 
@@ -116,13 +122,13 @@ Customer wants to send a request to the system from a new resource..<!--What hap
 
 **Entry criterias**: API layer of the system changed <!--What conditions must be met to start doing the activity. For example, if we are using SonarQube to ascertain maintainability, we might forego any recommendations in regards to lets say thread safety due to some reason, so entry criteria won't be met even if a trigger for the procedure (fall in rating) fired.-->
 
-**Effort Estimation:** Planning poker <!--What methodology could be used to estimate the amount of effort required. E.g. planning poker to estimate amount of work-hours that a developer spends-->
+**Effort Estimation:** Estimated by the manager <!--What methodology could be used to estimate the amount of effort required. E.g. planning poker to estimate amount of work-hours that a developer spends-->
 
-**Time-To-Resolution Estimation** Must take into account Internet connection issues and access to the client's hardware. <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
+**Time-To-Resolution Estimation** Must take into account Internet connection issues and access to the client's hardware(estimate time it usually takes for the client to respond either on the interview or via Telegram). Apart from that, the issue usually won't take more than 1-2 days of work. <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
 
 **The Procedure**: 
 1. Make sure that all the required functionality is accessible via Swagger page.
-2. Run through the Swagger endpoints to make sure that the system responds consistently.
+2. Run through the Swagger endpoints to make sure that the system responds without raising any errors.
 
 **Exit criterias**: Swagger page is up and running. All the requested functionality is available via the system API. All the responses are consistent. <!--What conditions must be met to stop doing the activity-->
 
