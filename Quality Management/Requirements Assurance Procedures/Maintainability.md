@@ -25,32 +25,74 @@
 # Quality Requirement Assurance Plan: Maintainability
 
 ## Quality Requirement Description
-This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements. 
-## Quality assurance/control activities
-### Activity 1: Modularity Fulfillment
-**Source**: The development team requires a degree of modularity that allows parallel independent work on different modules of the system. <!--What is the cause for this activity. e.g. in case of Functional Compliance this is "Customer. Customer requires a certain level of functionality to be fulfilled"-->
+This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.
+---
 
-**Triggers**: A change introduced in a module led to unexpected failure of the system <!--What happens to trigger this procedure-->
+# Quality Requirement Assurance Plan: Maintainability  
+*Aligned with ISO25010 and Business Constraints*
 
-**Conductor**: Vagif Khalilov, Developer <!--Who must handle this activity (Specify a person and their qualification)-->
+---
 
-**Training Required:** Basics of networking, architectural design <!--What training should the person have undertaken before activity-->
+## **Activity 1: Architectural Modularity Assurance**  
+**Source:** Proof-of-concept business goal (2.2.1)  
+**Triggers:**  
+- Incident report of cascading failures after a module change  
+- Aurora OS documentation version update requiring integration  
 
-**Measurements**: Time to resolution <!--What measurements reflect the efficiency of the activity-->
+### **Training Required**  
+1. **SOLID Principles**: To enforce decoupled, single-responsibility modules.
+2. 2**Chaos Testing**: To validate failure isolation (critical for GPU-bound systems).  
 
-**Tools**: IDE, draw.io <!--What tools (software, browser extensions, etc) should be used-->
+### **Measurements**  
+| Metric | Target | Measurement Method |  
+|--------|--------|--------------------|  
+| Cross-module failure rate | 0% | Automated integration tests post-change |  
+| Dependency depth | ≤2 layers | SonarQube dependency analysis |  
+| Interface stability | ≥90% unchanged APIs | API spec version diff |  
 
-**Entry criterias**: A change introduced in a module led to unexpected failure of the system, that has been identified by one of the team member as an issue of modularity <!--What conditions must be met to start doing the activity. For example, if we are using SonarQube to ascertain maintainability, we might forego any recommendations in regards to lets say thread safety due to some reason, so entry criteria won't be met even if a trigger for the procedure (fall in rating) fired.-->
+### **Tools**  
+1. **Draw.io**: Collaborative diagramming to visualize/modify architecture (supports real-time team edits).  
+2. **SonarQube**: Static analysis for circular dependencies/module coupling.  
+3. **Testcontainers**: Isolated testing of module interactions.  
 
-**Effort Estimation:** Planning poker <!--What methodology could be used to estimate the amount of effort required. E.g. planning poker to estimate amount of work-hours that a developer spends-->
+### **Entry Criteria**  
+- Incident tracker reports **≥2 unrelated component failures** caused by a single module change.  
+- SonarQube flags **>3 circular dependencies** in a module.  
 
-**Time-To-Resolution Estimation:** Architectural issues are considered serious enough to require full sprint unless proven otherwise <!--How to calculate amount of work-days to resolution. This is different from effort estimation because some resolutions require customer to handle some paperwork first-->
+### **Effort Estimation**  
+- Minor refactor: **3 story points** 
+- Major redesign: **12 story points**   
 
-**The Procedure**: Follow the [Contribution Guidelines](</Configuration Management/Contribution Guidelines.md>) to raise a new `fix` issue. Assign it to current sprint. Reevaluate current architecture, propose changes to architecture, raise `fix` issues with appropriate assignees to update the modules, update the architectural diagrams. <!--Describe the procedure undertaken. You may refer to other documents if necessary (for example, refer to Configuration Management if there a change in functional requirement requires a new feature to be fulfilled)-->
+### **Time-to-Resolution**  
+- Estimated by lead developer based on sprint capacity.  
 
-**Exit criterias**: The development team has reached a strict majority agreement that modularity requirement has been fulfilled. <!--What conditions must be met to stop doing the activity-->
+### **Procedure**  
+1. **Triage**:  
+   - Assign issue in github with description.    
+2. **Analysis**:  
+   - Run `sonar-scanner --dependency-check`.  
+   - Generate dependency graph via `draw.io`.  
+3. **Redesign**:  
+   - Define new interfaces.  
+   - Conduct peer review with lead developer.  
+4. **Testing**:  
+   - Deploy to `test` environment with chaos monkey (random module failures).  
+   - Validate isolation via `pytest -m "integration"`.  
+5. **Documentation**:  
+   - Update `ARCHITECTURE.md` with revised diagrams.    
+
+### **Artifacts**  
+- **Input**: Incident report, SonarQube analysis  
+- **Output**: Updates contracts between modules, Chaos test results, Update diagrams in `Architectural Management` folder  
+
+### **Exit Criteria**  
+- **Zero** cross-module failures in 72 hours of chaos testing.  
+- SonarQube score **≥A** for module independence.  
+- Approval via **signed-off checklist** by lead developer.  
+
+---
 
 
 # Changelog
 - v1.3 13/04/2025 - conversion of document to current format by Yaroslav Kim
-
+- v1.4 12/05/2025 - update by Vagif Khalilov
