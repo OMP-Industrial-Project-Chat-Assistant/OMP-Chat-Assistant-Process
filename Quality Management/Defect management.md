@@ -1,14 +1,14 @@
 # Introduction
 
-**Version:** 1.0
+**Version:** 1.1
 
 **Last Edit:** 12.05.2025
 
-**Last Editor:** Vagif Khalilov
+**Last Editor:** Yaroslav Kim
 
 **Owner:** Vagif Khalilov
 
-**Approval Status:** N/A
+**Approval Status:** Reviewes by Yaroslav Kim
 
 **Type:** Process
 
@@ -21,7 +21,6 @@
 # Justifications
 - Requirement assurance procedures must be properly documented per [Innopolis University needs](</Context and Requirements Management/EN/Context/Business Context.md>)
 - Requirement assurance procedures are needed to satisfy the outlined [requirements](</Context and Requirements Management/EN/Requirements/Software Product Requirements.md>)
-Here's the revised **Defect Management Process** using GitHub-centric tooling (no Jira/Confluence), tailored for your dual-repo setup (code + docs):
 
 ---
 
@@ -34,7 +33,7 @@ Here's the revised **Defect Management Process** using GitHub-centric tooling (n
 | Purpose | Repository | Artifacts                                      |  
 |---------|------------|------------------------------------------------|  
 | **Code Defects** | `https://github.com/OMP-Industrial-Project-Chat-Assistant/OMP-Chat-Assistant-Process` | Issues, Pull Requests, `bug`, `wontfix` labels |  
-| **Documentation Defects** | `https://github.com/OMP-Industrial-Project-Chat-Assistant/OMP-Chat-Assistant-Process` | Issues, `bug`, `wontfix` labels                |  
+| **Documentation Defects** | `https://github.com/OMP-Industrial-Project-Chat-Assistant/OMP-Chat-Assistant-Process` | Issues, Pull Requests               |  
 
 ---
 
@@ -65,7 +64,7 @@ Here's the revised **Defect Management Process** using GitHub-centric tooling (n
 ### **2. Triage**  
 **Roles**:  
 - **Code Defects**: Developer 
-- **Docs Defects**: Developer, Customer 
+- **Docs Defects**: Developer, Manager 
 
 **Process**:  
 
@@ -81,7 +80,7 @@ Here's the revised **Defect Management Process** using GitHub-centric tooling (n
 |-------|--------------|------------|  
 | `S1` | >2min response | >14.4GB memory |  
 | `S2` | Incorrect Russian | Broken doc links |
-| `S3` | Cosmetic issues |  |
+| `S3` | Code-style inconsistencies |  |
 
 ---
 
@@ -124,3 +123,4 @@ git checkout -b bug/{[chat/process]-#}/shortdesc
 
 # Changelog
 - v1.0 12/05/2025 - conversion of document to current format by Vagif Khalilov
+- v1.1 12/05/2025 - review and update by Yaroslav Kim
