@@ -1,3 +1,8 @@
+# WARNING
+**This repo is deprecated. All documentation has been moved to either main repo, or Notion.
+**
+---
+
 For developers/Для разработчика:
 - [Extreme Programming Based Process](<Process/Extreme Programming Based Process.md>)
 - [Contribution Guidelines](<Configuration Management/Contribution Guidelines.md>)
